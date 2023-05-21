@@ -20,14 +20,11 @@ module.exports = {
       colors: {
         secondary: colors.cyan,
         background: colors.zinc,
-        primary:colors.orange,
+        primary: colors.orange,
       },
       fontFamily: {
         sans: ['var(--font-sans)'],
       },
-    
     },
   },
-  // eslint-disable-next-line global-require, import/no-extraneous-dependencies
-  plugins: [, require('tailwindcss-animate')],
 };
